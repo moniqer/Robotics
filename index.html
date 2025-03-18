@@ -1,1 +1,107 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: #ddd;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Robotics Research Project</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#features">Features</a>
+        <a href="#specs">Specifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Meet the Future of Robotics</h2>
+        <p>Explore our cutting-edge research and development.</p>
+    </div>
+    <div class="container">
+        <section id="features" class="features">
+            <div class="feature-box">
+                <h3>Navigation System</h3>
+                <p>Learn about the AI-powered movement and control mechanisms.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Sensory Technology</h3>
+                <p>How our robot detects objects and interacts with the environment.</p>
+            </div>
+            <div class="feature-box">
+                <h3>WiFi Beacon System</h3>
+                <p>Exploring remote control and connectivity advancements.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Robotics Research Project</p>
+    </footer>
+</body>
+</html>
