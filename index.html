@@ -4,82 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robotics Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s ease-in-out;
-        }
-        nav a:hover {
-            color: #00bcd4;
-        }
-        .hero {
-            text-align: center;
-            padding: 50px;
-            background: linear-gradient(to right, #444, #222);
-            color: white;
-        }
-        .container {
-            flex: 1;
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .feature-box {
-            flex: 1;
-            min-width: 300px;
-            padding: 20px;
-            margin: 10px;
-            background: white;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            transition: transform 0.3s ease-in-out;
-        }
-        .feature-box:hover {
-            transform: translateY(-5px);
-        }
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: auto;
-        }
-        @media (max-width: 768px) {
-            .features {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -92,26 +17,41 @@
         <a href="#specs">Specifications</a>
         <a href="#contact">Contact</a>
     </nav>
+
     <div class="hero">
+        <img src="https://via.placeholder.com/1200x400" alt="Futuristic Robot" class="hero-image">
         <h2>Meet the Future of Robotics</h2>
         <p>Explore our cutting-edge research and development.</p>
     </div>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Robotics Team" class="about-image">
+            <p>We are a team of innovators dedicated to advancing robotics through AI and automation.</p>
+        </section>
+    </div>
+
     <div class="container">
         <section id="features" class="features">
             <div class="feature-box">
+                <img src="https://via.placeholder.com/300" alt="Navigation System">
                 <h3>Navigation System</h3>
                 <p>Learn about the AI-powered movement and control mechanisms.</p>
             </div>
             <div class="feature-box">
+                <img src="https://via.placeholder.com/300" alt="Sensory Technology">
                 <h3>Sensory Technology</h3>
                 <p>How our robot detects objects and interacts with the environment.</p>
             </div>
             <div class="feature-box">
+                <img src="https://via.placeholder.com/300" alt="WiFi Beacon System">
                 <h3>WiFi Beacon System</h3>
                 <p>Exploring remote control and connectivity advancements.</p>
             </div>
         </section>
     </div>
+
     <footer>
         <p>&copy; 2025 Robotics Research Project</p>
     </footer>
