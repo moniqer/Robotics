@@ -46,11 +46,15 @@ nav a:hover {
 
 .hero-image {
     max-height: 300px;  
-    width: auto; 
+    width: 90%; 
+    max-width: 1000px;   
     display: block;
     margin: 0 auto 20px auto;
-    border-radius: 12px; 
+    border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    object-fit: contain;  
+}
+px 12px rgba(0, 0, 0, 0.2);
 }
 
 .container {
