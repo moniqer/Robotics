@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4faff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -11,8 +11,8 @@ body {
 
 header {
     font-family: 'Oswald', sans-serif;
-    background: #111;
-    color: #ffcc00;
+    background: #003366; /* deep blue */
+    color: #66ccff;      /* light blue accent */
     text-align: center;
     padding: 25px;
     font-size: 2em;
@@ -23,7 +23,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background: #222;
+    background: #004080; /* medium blue */
     padding: 12px;
 }
 
@@ -35,18 +35,18 @@ nav a {
     padding: 8px 12px;
     transition: background 0.3s, color 0.3s;
     font-weight: 600;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background: #ffcc00;
-    color: #111;
-    border-radius: 5px;
+    background: #66ccff; /* light blue hover */
+    color: #003366;
 }
 
 .hero {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f4f4f4;
+    background-color: #e6f2ff; /* very light blue background */
 }
 
 .hero-image {
@@ -63,12 +63,12 @@ nav a:hover {
 .hero h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
-    color: #111;
+    color: #003366;
 }
 
 .hero p {
     font-size: 1.1em;
-    color: #333;
+    color: #004080;
 }
 
 .container {
@@ -115,13 +115,13 @@ nav a:hover {
 
 .feature-box h3 {
     font-family: 'Oswald', sans-serif;
-    color: #ffcc00;
+    color: #0066cc; /* medium-light blue */
     font-size: 1.4em;
     margin-top: 10px;
 }
 
 footer {
-    background: #111;
+    background: #003366;
     color: white;
     text-align: center;
     padding: 15px;
